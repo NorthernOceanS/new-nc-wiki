@@ -62,10 +62,10 @@ NC的每一个功能背后都是一个生成器。一个生成器接受你所设
 
 NC更加“严谨”一些。这些功能被拆分，并分配给单一的工具。具体来说，NC使用的工具有
 
-| 参数设置工具 | `get_position,getdirection,(直接放置方块),get_air`  |
+| 参数设置工具 | `get_position`,`getdirection`,(直接放置方块),`get_air`  |
 | ------------- | ------------- |
-| 参数删除工具 | `remove_last_position,remove_last_direction,remove_last_blocktype` |
-| 其它工具 | show_menu,show_saved_data,execute,choose_next_generator |
+| 参数删除工具 | `remove_last_position`,`remove_last_direction`,`remove_last_blocktype` |
+| 其它工具 | `show_menu`,`show_saved_data`,`execute`,`choose_next_generator` |
 
 `get_air`用来将空气方块设置为方块类型的参数。“其它工具中”：
 
